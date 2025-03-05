@@ -93,6 +93,7 @@ results_df.to_csv("data/predictions.csv", index=False)
 # Display results
 display(results_df.head())
 ```
+![output image](https://github.com/user-attachments/assets/e590034f-b56c-4274-a251-96d168a1ff93)
 
 ## Setup and Installation
 To set up the project, follow these steps:
