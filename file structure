@@ -1,0 +1,22 @@
+diabetes-prediction-ANN/
+│── data/
+│   ├── diabetes.csv                  # Original dataset (with outcomes)
+│   ├── diabetes_testing_data.csv      # New dataset (without outcomes)
+│── models/
+│   ├── pima_diabetes_model.h5         # Trained ANN model
+│── notebooks/
+│   ├── EDA.ipynb                      # Exploratory Data Analysis notebook
+│   ├── Model_Training.ipynb           # Model training and evaluation notebook
+│   ├── Model_Prediction.ipynb         # Notebook for making predictions
+│── scripts/
+│   ├── train_model.py                 # Script to train the model
+│   ├── predict.py                      # Script to make predictions
+│── results/
+│   ├── diabetes_predictions.csv       # CSV with predicted results
+│── images/
+│   ├── model_architecture.png         # ANN model architecture visualization
+│   ├── accuracy_loss_plot.png         # Model accuracy/loss graph
+│── .gitignore                          # Git ignore file
+│── LICENSE                             # Open-source license (MIT recommended)
+│── README.md                           # Project documentation
+│── requirements.txt                     # Dependencies (TensorFlow, Pandas, Sklearn)
